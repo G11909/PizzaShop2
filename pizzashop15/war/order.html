@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>注文</title>
+    </head>
+    <body>
+        <h1>注文</h1>
+        <table>
+        <form method="post" action="/add">
+            <tr><th>お名前:</th><td><input type="text" name="name"></td></tr>
+            <tr><th>住所:</th><td><input type="text" name="adress"></td></tr>
+            <tr><th>電話番号:</th><td><input name="number"></input></td></tr>
+            <tr><th>ピザ:</th>
+            <td>
+			<select name="order">
+			<option value="ピザ1枚">1枚</option>
+			<option value="ピザ2枚">2枚</option>
+			<option value="ピザ3枚">3枚</option>
+			<option value="ピザ4枚">4枚</option>
+			<option value="ピザ5枚">5枚</option>
+			</select>
+			</td>
+			</tr>
+            <tr><th></th><td><input type="submit" value="注文する"></td></tr>
+        </form>
+        </table>
+    </body>
+</html>
+ 
